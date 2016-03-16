@@ -1,0 +1,59 @@
+{
+  "name": "justo-plugin-handlebars",
+  "version": "0.1.0",
+  "description": "Plugin for Handlebars template system.",
+  "homepage": "http://justojs.org",
+  "author": {
+    "name": "Justo Labs",
+    "email": "justojs@justolabs.com",
+    "url": "http://justojs.org"
+  },
+  "contributors": [
+    {
+      "name": "Raúl G. González",
+      "email": "raulggonzalez@justojs.org",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "Justo",
+    "Justo.js",
+    "justo-plugin",
+    "Handlebars"
+  ],
+  "bugs": {
+    "url": "https://github.com/justojsp/justo-plugin-handlebars/issues",
+    "email": "issues@justojs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justojsp/justo-plugin-handlebars.git"
+  },
+  "engines": {
+    "node": ">= 5.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "justo-fs": "*",
+    "justo-handlebars": "*"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "*",
+    "justo": "*",
+    "justo-assert": "*",
+    "justo-assert-fs": "*",
+    "justo-plugin-babel": "*",
+    "justo-plugin-fs": "*",
+    "justo-plugin-jshint": "*",
+    "justo-plugin-npm": "*"
+  },
+  "main": "index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "justo test"
+  },
+  "preferGlobal": false
+}
